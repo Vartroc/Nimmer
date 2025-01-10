@@ -6,8 +6,8 @@
       # Looks bad :(
       # name = "base16";
       # base16-colors = colorScheme.palette;
-      name = "gruvbox";
-      style = "dark";
+      name = "catppuccin";
+      style = "mocha";
     };
 
     statusline = {

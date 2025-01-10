@@ -33,7 +33,7 @@
       packages = forEachSystem (pkgs: {
         default = pkgs.callPackage ./package.nix {
           inherit inputs;
-          colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-medium;
+          colorScheme = inputs.nix-colors.colorSchemes.catppuccin-mocha;
         };
       });
 
